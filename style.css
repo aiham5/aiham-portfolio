@@ -1,0 +1,108 @@
+.name {
+    background-color: brown;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(8khd.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+
+.navbar {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+
+.link {
+    text-decoration: underline;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.person img {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 1300px;
+    top: 70px;
+    border-radius: 5px;
+}
+
+
+.box {
+    width: 300px;
+    margin: 10px 5px auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bio {
+    display: flex;
+    margin: 150px 250px auto;
+    align-items: center;
+}
+
+.homepage {
+    width: auto;
+    margin: -150px 250px auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dev img {
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+    top: 70px;
+    border-radius: 5px;
+}
+
+.lfa img {
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 70px;
+    border-radius: 5px;
+}
+
+.c172 img {
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+    top: 30px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
